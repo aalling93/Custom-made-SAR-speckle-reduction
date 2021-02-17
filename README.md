@@ -19,6 +19,12 @@ The following filters have been developed:
 
 Note these fitlers are developed without the use of loops in Matlab.
 
+
+## Examples:
+
+
+
 ## Report with code
 
-For motivation or information of the filters, see:  https://dtudk-my.sharepoint.com/:b:/g/personal/s154443_win_dtu_dk/EXSmZdvdXBNLjqZA4LytVYMByutyjZyiR4d0H7LDFp8rEw
+For motivation or information of the filters, see:  
+https://drive.google.com/file/d/1UXcGZB0k54sjeEiX6oCoyUhCtHtZ0CMQ/view?usp=sharing
