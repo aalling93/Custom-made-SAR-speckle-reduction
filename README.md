@@ -14,9 +14,9 @@ Here, filters useful for **all** types of SAR images are devloped. The fitlers a
 
 # MATLAB-Speckle-reduction
 Severeal different speckle filters are implemented using Matlab to reduce the noise for different types of applications.
-The filters are **not** implemented using e.g. Matlab inherent functions (like e.g. its kernel function), and can therefore be directly translated to other languages like Python.
+The filters are **not** implemented using Matlab inherent functions (like e.g. its kernel function), and can therefore be directly translated to other languages like Python.
 
-## Types in filters
+## Implementations:
 The following filters have been developed:
 
 -Mean filter.  
@@ -30,7 +30,8 @@ The following filters have been developed:
 Note these fitlers are developed without the use of loops in Matlab.
 
 
-## Examples:
+Furhter, a simple sobel edge detection algorithm is implemented ledning to and edge quality paramter.
+
 
 
 
