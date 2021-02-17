@@ -1,5 +1,16 @@
 # Speckle reduction of SAR images
-Speckle is the inherent noise-like phenomenon present in Synthetic Aperature Radar images. Here, filters useful for **all** types of SAR images are devloped. The fitlers are not assuming that the SAR images are e.g. Sentinel-1. The filters themselves calculate all the neccesary statistics etc. to fully function. 
+Speckle noise inherent in SAR images weakens the meaningful applications of the SAR.
+The reduction of the speckle noise is implemented, leading to actual filtering algorithms, based
+on the early propositions for speckle filtering. To evaluate the performance of the different
+algorithms, several parameters are introduced. All parameters are based on statistical
+theory and should be well known within the field. The only exception is the EQP devel-
+oped by the author to quantify the quality of the edges after a speckle filtering(using an edge detection). 
+
+In addition to the parameters, the analysis builds on the visual interpretation of the SAR images. Conclusively, the
+Lee-filter turns out to be superior to the others in terms of speckle reduction and edge
+preservation, having only a slight disadvantage in dealing with close targets.
+
+Here, filters useful for **all** types of SAR images are devloped. The fitlers are not assuming that the SAR images are e.g. Sentinel-1. The filters themselves calculate all the neccesary statistics etc. to fully function. 
 
 
 # MATLAB-Speckle-reduction
