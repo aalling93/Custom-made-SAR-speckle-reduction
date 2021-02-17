@@ -3,8 +3,7 @@ Speckle noise inherent in SAR images weakens the meaningful applications of the 
 The reduction of the speckle noise is implemented, leading to actual filtering algorithms, based
 on the early propositions for speckle filtering. To evaluate the performance of the different
 algorithms, several parameters are introduced. All parameters are based on statistical
-theory and should be well known within the field. The only exception is the EQP devel-
-oped by the author to quantify the quality of the edges after a speckle filtering(using an edge detection). 
+theory and should be well known within the field. The only exception is the EQP developed by the author to quantify the quality of the edges after a speckle filtering(using an edge detection). 
 
 In addition to the parameters, the analysis builds on the visual interpretation of the SAR images. Conclusively, the
 Lee-filter turns out to be superior to the others in terms of speckle reduction and edge
