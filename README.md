@@ -32,7 +32,11 @@ Note these fitlers are developed without the use of loops in Matlab.
 
 Furhter, a simple sobel edge detection algorithm is implemented ledning to and edge quality paramter.
 
+## Description:
 
+SAR images have a phase and amplitude. Below, a Sentinel-1 SAR VV GRD IW image aquired over Denmark is displyed. 6 Different regions are highlighted.
+![Alt text](images/SAR_image_region_lolland.PNG?raw=true "Title")
+![Alt text](images/SAR_image_region_lolland.PNG")
 
 
 ## Report with code
