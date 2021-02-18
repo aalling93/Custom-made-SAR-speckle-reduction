@@ -1,5 +1,6 @@
 # Speckle reduction of SAR images
-Speckle noise inherent in SAR images weakens the meaningful applications of the SAR.
+
+// Kristian Aalling Sørensen - 2017. Updated 2021.
 
 ## Content:
 - Introdution to speckle
@@ -8,7 +9,7 @@ Speckle noise inherent in SAR images weakens the meaningful applications of the 
 - Link to the original report with code, background, results and analyses.
 
 ##
-
+Speckle noise inherent in SAR images weakens the meaningful applications of the SAR.
 The reduction of the speckle noise is implemented, leading to actual filtering algorithms, based
 on the early propositions for speckle filtering. To evaluate the performance of the different
 algorithms, several parameters are introduced. All parameters are based on statistical
