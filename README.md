@@ -52,9 +52,15 @@ Visually, the Lee filter outperforms the others. Below, we can more clearly see 
 
 ### Inhomogeneous areas
 
-Below, a speckle filtering and edge detection has been performed on an inhomogenuous region. 
+Below, a speckle filtering and edge detection has been performed on an inhomogenuous region (region 6, a large city), with different theresholds. For information on the thresholds, see the report below. 
 
 ![Alt text](images/city_speckle.PNG?raw=true "Title")
+
+It is clear to see that the speckle filtering performs poorly on inhomogenous regions. In fact, this is due to the so-called "Equivalent Number of Looks" (ENL). For the Sentinel-1 IW GRP Images (used here), the images have been averaged on average 4.4 times. This statistics is in fact computable from the different regions for both polarisations, as shown below. Here, we see that region 1,2 and 3(homogeneous) have statistics comparable to the true ENL. The inhomogenuous does not.
+
+![Alt text](images/ENL_test_region.PNG?raw=true "Title")
+
+
 
 
 ## Report with code
