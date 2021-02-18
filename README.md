@@ -35,9 +35,15 @@ Furhter, a simple sobel edge detection algorithm is implemented ledning to and e
 ## Description:
 
 SAR images have a phase and amplitude. Below, a Sentinel-1 SAR VV GRD IW image aquired over Denmark is displyed. 6 Different regions are highlighted.
+
+
 ![Alt text](images/SAR_image_region_lolland.PNG?raw=true "Title")
 
 
+Due to the inherent speckle in SAR images, speckle reductions must often times be computed. Speckle reduciton can (in general) only be performed on homogenous regions, such as e.g. region 1, region 2 or region 3. If edges occur in images, adaptive speckle reduction must be perfomed as to perserve the edges. Below, a speckle filtering has been done on region 5 (two fields). To the left, we see the origial image being "granular" - this is speckle. We then then see the different filters implemented (the implementation are shown in frost.m etc.). The box filter performs poorly at the edges.
+
+
+![Alt text](images/region1_test.PNG?raw=true "Title")
 
 ## Report with code
 
