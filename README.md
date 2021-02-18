@@ -45,6 +45,18 @@ Due to the inherent speckle in SAR images, speckle reductions must often times b
 
 ![Alt text](images/region1_test.PNG?raw=true "Title")
 
+Visually, the Lee filter outperforms the others. Below, we can more clearly see how the Lee filter outperform the other fitlers, both with spckle filtering and with edge filtering. It is here clear to see the edge is sharper for the Lee filter, while the homogenous region is speckle filtered.
+
+
+![Alt text](images/edge_detection.PNG?raw=true "Title")
+
+### Inhomogeneous areas
+
+Below, a speckle filtering and edge detection has been performed on an inhomogenuous region. 
+
+![Alt text](images/city_speckle.PNG?raw=true "Title")
+
+
 ## Report with code
 
 For motivation or information of the filters, see:  
