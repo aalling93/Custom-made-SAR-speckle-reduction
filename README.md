@@ -12,6 +12,8 @@ preservation, having only a slight disadvantage in dealing with close targets.
 Here, filters useful for **all** types of SAR images are devloped. The fitlers are not assuming that the SAR images are e.g. Sentinel-1. The filters themselves calculate all the neccesary statistics etc. to fully function. 
 
 
+The report was made on my second year of University, and I apologize for the quality of the plot. Still, I hope it is useful. 
+
 # MATLAB-Speckle-reduction
 Severeal different speckle filters are implemented using Matlab to reduce the noise for different types of applications.
 The filters are **not** implemented using Matlab inherent functions (like e.g. its kernel function), and can therefore be directly translated to other languages like Python.
@@ -61,7 +63,9 @@ It is clear to see that the speckle filtering performs poorly on inhomogenous re
 ![Alt text](images/ENL_test_region.PNG?raw=true "Title")
 
 
+In the report "Speckle reduction of SAR images", we saw why the Lee filter outperformed the other filters. Still, a trade-off must be made as this is computationally more expensive than the others, see the figure below:
 
+![Alt text](images/runtime.PNG?raw=true "Title")
 
 ## Report with code
 
