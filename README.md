@@ -1,6 +1,6 @@
 # Speckle reduction of SAR images
 
-// Kristian Aalling Sørensen - 2017. Updated 2021.
+// Kristian Aalling Sørensen - 2017. 
 
 ## Content:
 - Introdution to speckle
